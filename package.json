@@ -1,8 +1,8 @@
 {
-  "name": "lint-config-eslint",
+  "name": "eslint-config-framelunch",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:kaave/lint-config-eslint.git",
+  "repository": "git@github.com:kaave/eslint-config-framelunch.git",
   "author": "kaave <abe@framelunch.jp>",
   "license": "MIT",
   "dependencies": {
