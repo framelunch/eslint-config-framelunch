@@ -1,10 +1,12 @@
-# FRAME LUNCH ESlint config
+# FRAME LUNCH ESLint config
 
 フレームランチのESLint設定(基本)
 
 ## 依存
 
-[eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+- [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+- [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype)
+- [eslint-plugin-flowtype-errors](https://github.com/amilajack/eslint-plugin-flowtype-errors)
 
 ## 使い方
 

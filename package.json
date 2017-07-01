@@ -1,13 +1,19 @@
 {
   "name": "eslint-config-framelunch",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": "git@github.com:kaave/eslint-config-framelunch.git",
   "author": "kaave <abe@framelunch.jp>",
   "license": "MIT",
+  "scripts": {
+    "test": "eslint --ext .js,.jsx 'test/'"
+  },
   "dependencies": {
+    "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-flowtype-errors": "^3.3.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^5.0.1",
     "eslint-plugin-react": "^7.0.1"
