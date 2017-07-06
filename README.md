@@ -13,7 +13,10 @@
 ### インストール
 
 ```bash
-yarn add -D git+https://github.com/framelunch/eslint-config-framelunch
+# newest version with eslint@3
+yarn add -D eslint@^3 framelunch/eslint-config-framelunch
+# target version with eslint@3
+yarn add -D eslint@^3 framelunch/eslint-config-framelunch#v0.1.0
 ```
 
 ### .eslintrc
@@ -40,7 +43,7 @@ yarn add -D git+https://github.com/framelunch/eslint-config-framelunch
 ```diff
 // package.json
 
--    "eslint": "^3.19.0",
+     "eslint": "^3.19.0",
 -    "eslint-config-airbnb": "^15.0.1",
 -    "eslint-plugin-import": "^2.2.0",
 -    "eslint-plugin-jsx-a11y": "^5.0.3",
