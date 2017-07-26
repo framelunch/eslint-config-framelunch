@@ -33,16 +33,16 @@ module.exports = {
     /*
      * common
      */
-    'no-param-reassign': 'off',     // 同じ関数内で戻り値を返すreturnと返さないreturnがあったら怒る 無効化 serverで困る
-    'one-var': 'off',               // 1行につき1宣言 無効化 FLの流儀と合わない
-    eqeqeq: ['error', 'always'],    // 比較演算子はすべて===か!==
-    'no-duplicate-imports': 'off',  // importの重複を不許可 無効化 flowtypeのimport typeと相性が悪い
-    'class-methods-use-this': 'off' // classのメソッド内では必ずthisを使う 無効化
+    'no-param-reassign': 'off',      // 同じ関数内で戻り値を返すreturnと返さないreturnがあったら怒る 無効化 serverで困る
+    'one-var': 'off',                // 1行につき1宣言 無効化 FLの流儀と合わない
+    eqeqeq: ['error', 'always'],     // 比較演算子はすべて===か!==
+    'no-duplicate-imports': 'off',   // importの重複を不許可 無効化 flowtypeのimport typeと相性が悪い
+    'class-methods-use-this': 'off', // classのメソッド内では必ずthisを使う 無効化
 
     /*
      * React
      */
-    'react/sort-comp': 'off',       // reactコンポーネントのメソッド順を強制 無効化 flowtypeと相性が悪い
-    'react/no-multi-comp': 'off'    // 1ファイルに複数のコンポーネントを定義させない 無効化 やりたいこともある
+    'react/sort-comp': 'off',        // reactコンポーネントのメソッド順を強制 無効化 flowtypeと相性が悪い
+    'react/no-multi-comp': 'off'     // 1ファイルに複数のコンポーネントを定義させない 無効化 やりたいこともある
   }
 };
