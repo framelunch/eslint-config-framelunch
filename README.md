@@ -16,7 +16,7 @@
 # newest version with eslint@4
 yarn add -D eslint@^4 framelunch/eslint-config-framelunch
 # target version with eslint@4
-yarn add -D eslint@^4 framelunch/eslint-config-framelunch#v0.2.2
+yarn add -D eslint@^4 framelunch/eslint-config-framelunch#v0.2.3
 ```
 
 ### .eslintrc
