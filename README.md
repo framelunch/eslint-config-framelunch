@@ -13,10 +13,10 @@
 ### インストール
 
 ```bash
-# newest version with eslint@3
-yarn add -D eslint@^3 framelunch/eslint-config-framelunch
-# target version with eslint@3
-yarn add -D eslint@^3 framelunch/eslint-config-framelunch#v0.1.0
+# newest version with eslint@4
+yarn add -D eslint@^4 framelunch/eslint-config-framelunch
+# target version with eslint@4
+yarn add -D eslint@^4 framelunch/eslint-config-framelunch#v0.2.2
 ```
 
 ### .eslintrc
