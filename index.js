@@ -3,7 +3,6 @@
 module.exports = {
   extends: [
     'airbnb',
-    'plugin:flowtype/recommended'
   ],
 
   env: {
@@ -12,18 +11,7 @@ module.exports = {
     es6: true
   },
 
-  plugins: [
-    'flowtype',
-    'flowtype-errors'
-  ],
-
   parser: 'babel-eslint',
-
-  settings: {
-    flowtype: {
-      onlyFilesWithFlowAnnotation: true
-    }
-  },
 
   globals: {
     browser: true
