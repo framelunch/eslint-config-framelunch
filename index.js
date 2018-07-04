@@ -40,6 +40,42 @@ module.exports = {
       }
     ],
     'no-unused-vars': ['warn', { caughtErrors: 'none', varsIgnorePattern: '^_', argsIgnorePattern: '^_' }],
-    'arrow-parens': ['error', 'as-needed']
+    'arrow-parens': ['error', 'as-needed'],
+    'require-jsdoc': 'off',
+    // 未使用変数 警告 ただし、先頭に_のついている変数、引数はOKとする
+    'no-unused-vars': [
+      'warn',
+      {
+        caughtErrors: 'all',
+        varsIgnorePattern: '^_',
+        argsIgnorePattern: '^_'
+      }
+    ],
+    // thisを参照しないクラスメソッドはstaticでなければいけない 無効化 オブジェクト指向ってそういうもんではないと思う
+    'class-methods-use-this': 'off',
+
+    /*
+     * import
+     */
+    // exportが1件だけならdefaultにする 無効化 気にしない
+    'import/prefer-default-export': 'off',
+    // package系、.js、.ts以外は拡張子を要求
+    'import/extensions': ['error', 'never', {
+      '.jsx': 'always',
+      '.tsx': 'always',
+      '.html': 'always',
+      '.ejs': 'always',
+      '.hbs': 'always',
+      '.txt': 'always',
+      '.csv': 'always',
+      '.json': 'always',
+      '.md': 'always',
+      '.frag': 'always',
+      '.ejs': 'always',
+      '.svg': 'always',
+      '.jpg': 'always',
+      '.png': 'always',
+      '.gif': 'always'
+    }]
   }
 };
